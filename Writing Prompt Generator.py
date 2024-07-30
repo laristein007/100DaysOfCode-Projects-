@@ -22,6 +22,7 @@ def check_input(inspired):
         #inspired = None
         inspired = (input("\tPlease enter 'Y' or 'N': ")).upper()
         check_input(inspired)
+        
 #Ask if user wants a new prompt
 def new_prompt():
     time.sleep(2)
@@ -42,6 +43,7 @@ def new_prompt():
         #inspired = None
         new_prompt = (input("\tPlease enter 'Y' or 'N': ")).upper()
         new_prompt(new_prompt)
+        
 #Typewriter effect. Referenced https://trinket.io/python/73ba588f2b
 def type_writer(input):
     time.sleep(1)
